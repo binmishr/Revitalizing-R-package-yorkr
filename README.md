@@ -524,3 +524,20 @@ fromcurrency <- c("USD")
 b<- getQuote(paste0(fromcurrency, toCurrency, "=X"))
 xchg <- b$Last
 xchg
+        
+A Brief Introduction About Yorkr Package
+=========================================
+
+This R package can be used to analyze performances of cricketers based on match data from Cricsheet. The yorkr package can handle match data from ODIs, Twenty20s and IPL T20s from Cricsheet. The data has to be in yaml format
+
+The package can be installed directly from CRAN as follows
+
+install.packages("yorkr") library(yorkr)
+
+Note:
+============
+setwd("/Users/tvganesh/backup/software/cricket-package/yorkr-cricsheet/yorkrgit")
+install.packages("yorkr_0.0.8.tar.gz",repos = NULL, type="source")
+library(yorkr)
+
+Below I rank batsmen and bowlers in ODIs, T20 and IPL based on the data from Cricsheet.
