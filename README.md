@@ -540,4 +540,4 @@ setwd("/Users/tvganesh/backup/software/cricket-package/yorkr-cricsheet/yorkrgit"
 install.packages("yorkr_0.0.8.tar.gz",repos = NULL, type="source")
 library(yorkr)
 
-Below I rank batsmen and bowlers in ODIs, T20 and IPL based on the data from Cricsheet.
+I rank batsmen and bowlers in ODIs, T20 and IPL based on the data from Cricsheet.
